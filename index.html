@@ -1,49 +1,47 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet"><style>body {
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1"><meta http-equiv="Permissions-Policy" content="interest-cohort=()"/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet"><style>body {
       margin: 0;
       background: #000;
       overflow: hidden;
     }
 
-    /* .temp {
-      
-    } */
-
     #scroll-svg {
       width: 80%;
       height: 80%;
       max-width: min(170px, 25%);
-      max-height: 200px;
+      max-height: 150px;
     }
 
-    #Плашка {
+    #menu-box {
       width: 90%;
       height: 100%;
-      max-width: 735.96px;
-      max-height: 542.07px;
+      max-width: 650px;
+      max-height: 500px;
     }
 
-    #ptext {
+    #menu-box__text {
       font-family: 'Play', sans-serif;
       color: #fff;
+      height: 100%;
+      width: 100%;
+      display: flex;
       /* width: calc(20vw + 20vh);
-      top: calc(5vh + 1vw);  */
+  top: calc(5vh + 1vw);  */
     }
 
-    #ptext p {
+    #menu-box__text p {
+      margin: auto;
       /* font-size: calc(.75vw + .75vh); */
       font-weight: 400;
-      font-size: 1.55rem;
+      font-size: 1.8rem;
     }
 
-    #ptext h1 {
+    /* #menu-box__text h1 {
       /* font-size: calc(.8vw + .8vh); */
-      font-size: 1.6rem;
+      /* font-size: 1.6rem;
       font-weight: 700;
-    }
+    } */
 
-    .app {
-      position: relative;
-      /* height: 50vh; */
+    .bottom-box {
       width: 100vw;
       display: flex;
       margin: 0;
@@ -55,6 +53,49 @@
       position: absolute;
       align-content: center;
       justify-content: flex-end;
+    }
+
+    @media only screen and (max-width: 800px) {
+      .topbar__box {
+        flex-direction: column;
+        display: flex;
+      }
+    }
+
+    .topbar {
+      left: 0;
+      top: 0;
+      position: fixed;
+      width: 100vw;
+      display: flex;
+    }
+
+    .topbar__box {
+      margin: auto;
+    }
+
+    .topbar__item {
+      margin: auto;
+      max-width: 200px;
+    }
+
+    .topbar__item__box {
+      height: 100%;
+      width: 100%;
+      display: flex;
+    }
+
+    .topbar__text {
+      margin: auto;
+      color: #fff;
+      font-size: 1.55rem;
+      font-family: 'Play', sans-serif;
+    }
+
+    .app {
+      position: relative;
+      height: 100vh;
+      width: 100vw;
     }
 
     .box {
