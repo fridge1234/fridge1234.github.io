@@ -1,0 +1,14 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="875" scrolly="417.5" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="805.2098774811993" scrolly="442.58773789419774" scale="0.7706559545833883">
+    <block xmlns="https://developers.google.com/blockly/xml" type="execScript" id="?DTEokya+XSv1sC$D5Qf" x="-710" y="-170">
+      <value name="TEXT">
+        <shadow type="textMultiline" id="bf#@mj(982YY-79B(YdM">
+          <field name="HIGHLIGHT_MODE">javascript</field>
+          <field name="TEXT">// Built-in variables: app, v3d, VARS, PROC&#10;app.scene.traverse(function(obj) {&#10;    obj.material = new v3d.MeshBasicMaterial({&#10;        color: new v3d.Color(Math.random(), Math.random(), Math.random())&#10;    });&#10;});</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="28" viewport-w="768" viewport-h="455.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

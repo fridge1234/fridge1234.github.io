@@ -1,0 +1,259 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="true" scrollx="669.9171517939358" scrolly="375.31429052064044" scale="0.694927061952338">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initPreloader" id="ai|J1_(=/p,.iC$IgR~m" x="-950" y="-530">
+      <statement name="DO_START">
+        <block type="addHTMLElement" id="D?^::0t{:$ft+G*VG@8_">
+          <field name="ELEMENT">div</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <shadow type="text" id="[+y0Iuv_}w#L*o7nR@?5">
+              <field name="TEXT">preloader_div</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="hDL,~B!lyX+a{FwpibVN">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="l%/=EgbI5%A1t,=2zWQ*">
+              <field name="ATTRIBUTE">style</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <block type="textMultiline" id="h[iUesb*Bg!gzU6~*mo=">
+                  <field name="HIGHLIGHT_MODE">css</field>
+                  <field name="TEXT">  position: fixed;&#10;  width: 100%;&#10;  height: 100%;&#10;  background: #E0E0E0;&#10;  z-index: 5;&#10;  &#10;&#10;&#10;</field>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="Ul9[|15*q@#Xc%7/BUC.">
+                  <field name="TEXT">preloader_div</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="addHTMLElement" id="v)Jep0biHIRf6vX}GMYY">
+                  <field name="ELEMENT">div</field>
+                  <field name="MODE">TO</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="ID">
+                    <shadow type="text" id="xc#[7mF7bVw5q-J5vW%9">
+                      <field name="TEXT">loader</field>
+                    </shadow>
+                  </value>
+                  <value name="TARGET_ID">
+                    <shadow type="DOMObjectSelector">
+                      <field name="DOM_OBJECT">CONTAINER</field>
+                    </shadow>
+                    <block type="text" id="L9hDew]-tK35/ssEwpl1">
+                      <field name="TEXT">preloader_div</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemAttribute" id="lq1bD#n~Sbe,5lR}CcsS">
+                      <field name="ATTRIBUTE">style</field>
+                      <field name="PARENT">TRUE</field>
+                      <value name="VALUE">
+                        <block type="textMultiline" id="N_Y]b)(;6;4xAF=msyS_">
+                          <field name="HIGHLIGHT_MODE">css</field>
+                          <field name="TEXT">  position: relative;&#10;    width: 480px;&#10;  height: 270px;&#10;  top: 50%;&#10;  left: 50%;&#10;  margin-right: -50%;&#10;  transform: translate(-50%, -50%);&#10;  margin: 0;&#10; background-image: url('/preloader/suzanna.gif') ;&#10; background-repeat:no-repeat;&#10;   background-position: center;&#10;    /*border-radius: 25px;*/&#10;     /*border-radius: 280px/100px;*/&#10;      /*border-radius: 100px 100px 15px 15px;*/&#10;   &#10;</field>
+                        </block>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="MN^1nu:)BSOmH`#KLu%i">
+                          <field name="TEXT">loader</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="addHTMLElement" id="nL]@iKk3a,rXcAXrnTm!">
+                          <field name="ELEMENT">div</field>
+                          <field name="MODE">TO</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="ID">
+                            <block type="text" id="itwUR[v.%R[i~-#Z17E0">
+                              <field name="TEXT">alert</field>
+                            </block>
+                          </value>
+                          <value name="TARGET_ID">
+                            <shadow type="DOMObjectSelector">
+                              <field name="DOM_OBJECT">BODY</field>
+                            </shadow>
+                            <block type="text" id="vE$h#Xi7?:K[!10T|];R">
+                              <field name="TEXT">preloader_div</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="setHTMLElemAttribute" id="bp#CY#}Tg;1X*D,Z^Dfm">
+                              <field name="ATTRIBUTE">innerHTML</field>
+                              <field name="PARENT">TRUE</field>
+                              <value name="VALUE">
+                                <block type="text_join" id="%cd%Z*f2%^[masin5K/b">
+                                  <mutation items="1"/>
+                                  <value name="ADD0">
+                                    <block type="text" id="zu)dmZ/7JRa;n_r42SK4">
+                                      <field name="TEXT">Blend3DWeb - Development 4D in Web</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="ID">
+                                <block type="text" id="vQ7P~2cS,fU2dLto]swU">
+                                  <field name="TEXT">alert</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="setHTMLElemAttribute" id="V.V1_;7oUW`}s4hZD)Lm">
+                                  <field name="ATTRIBUTE">style</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="VALUE">
+                                    <block type="text_join" id="jY]F0OPm4L%nh,_/jduT">
+                                      <mutation items="11"/>
+                                      <value name="ADD0">
+                                        <block type="text" id="GG{74Ho)JNvBK(q-f]AK">
+                                          <field name="TEXT">position: absolute;</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD1">
+                                        <block type="text" id="|*xZFx9`lBlp|QR*9nb6">
+                                          <field name="TEXT">padding: 20px;</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD2">
+                                        <block type="text" id="srfB%]$[9}=p|+`_|s)L">
+                                          <field name="TEXT">color: #265787;</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD3">
+                                        <block type="text" id="h=9rdxwZ8E~BL7klA?V|">
+                                          <field name="TEXT">opacity: 1;</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD4">
+                                        <block type="text" id="ds(,P5]$FYZB3j*5?R!I">
+                                          <field name="TEXT">transition: opacity 0.6s;</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD5">
+                                        <block type="text" id="86haruGqA8E48sz/GCIY">
+                                          <field name="TEXT">left: 0px;</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD6">
+                                        <block type="text" id="g[AQyy-Ter*Q%~tn1[@*">
+                                          <field name="TEXT">right: 0px;</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD7">
+                                        <block type="text" id="B-glq7olKJhQVVAX^MK*">
+                                          <field name="TEXT">bottom: 25%;</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD8">
+                                        <block type="text" id=":HklaQ}o5w`gp!!U3|pZ">
+                                          <field name="TEXT">font-family: tox;</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD9">
+                                        <block type="text" id=",N%^^C.9-A50JjOxAK/D">
+                                          <field name="TEXT">text-align: center;</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD10">
+                                        <block type="text" id="so6`8^6LRsuarJg@K+XQ">
+                                          <field name="TEXT">font-size: 32px;</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="ID">
+                                    <block type="text" id="qu7+k*RoeOVf=]jccQEE">
+                                      <field name="TEXT">alert</field>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="loadFont" id="[_@Tr`ZEZyq#Pklumk%[">
+                                      <value name="URL">
+                                        <shadow type="text" id="x#+w1mMouuPh:-$GemI@">
+                                          <field name="TEXT">/preloader/ToxicPowers.ttf</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="FONTFAMILY">
+                                        <shadow type="text" id="2n$NB@=?GqfB{gbV839=">
+                                          <field name="TEXT">tox</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_END">
+        <block type="setHTMLElemStyle" id="N#s7rjA2tzgl/|ppnmKt">
+          <field name="PROPERTY">visibility</field>
+          <field name="PARENT">TRUE</field>
+          <value name="VALUE">
+            <block type="text" id="y_uUV@o]BJR3i%aE9G:%">
+              <field name="TEXT">hidden</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="/DIoRkyjeIZB]n!Ajpq{">
+              <field name="TEXT">preloader_div</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="false" scrollx="1199" scrolly="744" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="stopAnimation" id="lbZ(7m:0H`,.|?)I-`(4" disabled="true" x="-850" y="-450">
+      <value name="VALUE">
+        <shadow type="animationList" id="#DMo{Z)Enqzm*zp:fORM">
+          <field name="FIELDNAME">Plane</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="q.[/~CJy`*vRL,]cx}8c" disabled="true" x="-850" y="-370">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="x^?M49x@jos^uAGG#$(3">
+          <field name="FIELDNAME">Plane</field>
+        </shadow>
+      </value>
+      <statement name="DO_OVER">
+        <block type="playAnimationAdv" id="[vF(mScJV[N;=1)ocr1Y">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">AUTO</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="4AEy)2![c4s`qE]#!K4a">
+              <field name="FIELDNAME">Plane</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="stopAnimation" id="G)flk4/QmAZkvZ!=Z/b,">
+          <value name="VALUE">
+            <shadow type="animationList" id="}Yn}Y7OTpf,Bwq0ZqW(w">
+              <field name="FIELDNAME">Plane</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="28" viewport-w="768" viewport-h="455.5" viewport-hidden="false" toolbox-library-mode="true" toolbox-minimized-mode="false"></editorsettings>
+</xml>

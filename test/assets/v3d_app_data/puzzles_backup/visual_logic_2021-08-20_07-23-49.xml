@@ -1,0 +1,43 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="875" scrolly="417.49999999999994" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="1095.3396349232537" scrolly="591.3033073460313" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="stopAnimation" id="lbZ(7m:0H`,.|?)I-`(4" x="-850" y="-450">
+      <value name="VALUE">
+        <shadow type="animationList" id="#DMo{Z)Enqzm*zp:fORM">
+          <field name="FIELDNAME">Plane</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="q.[/~CJy`*vRL,]cx}8c" x="-850" y="-370">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="x^?M49x@jos^uAGG#$(3">
+          <field name="FIELDNAME">Plane</field>
+        </shadow>
+      </value>
+      <statement name="DO_OVER">
+        <block type="playAnimationAdv" id="[vF(mScJV[N;=1)ocr1Y">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">AUTO</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="4AEy)2![c4s`qE]#!K4a">
+              <field name="FIELDNAME">Plane</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="stopAnimation" id="G)flk4/QmAZkvZ!=Z/b,">
+          <value name="VALUE">
+            <shadow type="animationList" id="}Yn}Y7OTpf,Bwq0ZqW(w">
+              <field name="FIELDNAME">Plane</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="28" viewport-w="768" viewport-h="455.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
